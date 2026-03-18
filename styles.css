@@ -1,6 +1,48 @@
 body {
-  background-image: url('travel_background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('travel_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    background-color: dodgerblue;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#companyName {
+    margin: 0;
+    flex: 1;
+}
+
+#navLinks {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex: 2;
+    justify-content: center; 
+}
+
+.searchContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+#navLinks li a {
+    display: block;
+    color: #f1f1f1;
+    padding: 14px 16px;
+    text-decoration: none;
 }
