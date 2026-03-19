@@ -46,3 +46,67 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.searchResults {
+    display: none;
+    width: 50%;
+    margin-top: 110px;
+    margin-left: 50px;
+    padding: 20px;
+    border-width: 4px;
+    border-color: rgb(30,144,255,40%);
+    background-color: rgb(240,248,255,20%);
+    color: rgb(240,240,240,85%);  
+}
+
+.searchResults p {
+    font-size: 150%;
+    font-family: Arial;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px grey;
+}
+
+
+.mainText {
+    display: block;
+    width: 50%;
+    margin-top: 110px;
+    margin-left: 50px;
+    padding: 20px;
+    border-width: 4px;
+    border-color: rgb(30,144,255,40%);
+    background-color: rgb(240,248,255,20%);
+    color: rgb(240,240,240,85%); 
+}
+
+.mainText h2 {
+    font-size: 200%;
+    font-family: Helvetica;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.mainText p {
+    font-size: 150%;
+    font-family: Arial;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.contactForm {
+    display: block;
+    width: 75%;
+    margin-top: 110px;
+    margin-left: 170px;
+    padding: 20px;
+    border-width: 4px;
+    border-color: rgb(30,144,255,40%);
+    background-color: rgb(240,248,255,20%);
+    color: rgb(240,240,240,85%);
+}
