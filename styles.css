@@ -206,3 +206,78 @@ label {
 #contactBtn:active {
     transform: translateY(0);
 }
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 110px;
+}
+
+.aboutInfo {
+    flex: 2;
+    display: block;
+    width: 50%;
+    margin-top: 110px;
+    margin-left: 50px;
+    padding: 20px;
+    border-width: 4px;
+    border-color: rgb(30,144,255,40%);
+    background-color: rgb(240,248,255,20%);
+    color: rgb(240,240,240,85%); 
+}
+
+.aboutInfo h2 {
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+    font-size: 300%;
+    font-family: Arial;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.aboutInfo p {
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+    font-size: 150%;
+    font-family: Arial;
+    font-weight: 300;
+}
+
+.teamDiv {
+    flex: 1;
+    display: block;
+    width: 50%;
+    margin-top: 110px;
+    margin-left: 50px;
+    padding: 20px;
+    border-width: 4px;
+    border-color: rgb(30,144,255,40%);
+    background-color: rgb(240,248,255,20%);
+    color: rgb(240,240,240,85%);
+    justify-content: center;
+}
+
+.teamDiv h3 {
+    text-align: center;
+    text-shadow: 2px 2px 5px grey;
+    font-size: 300%;
+    font-family: Arial;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.teamDiv ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: Arial;
+    font-size: 130%;
+    text-align: center;
+}
+
+.teamDiv li {
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px grey;
+}
