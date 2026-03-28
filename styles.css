@@ -17,9 +17,14 @@ body {
     top: 0;
     width: 100%;
     box-sizing: border-box;
+    box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.3);
 }
 
 #companyName {
+    font-size: 250%;
+    -webkit-text-stroke: 1px whitesmoke;
+    font-family: fantasy;
+    color: rgba(238, 204, 13, 0.856);
     margin: 0;
     flex: 1;
 }
@@ -103,10 +108,14 @@ body {
     display: block;
     width: 75%;
     margin-top: 110px;
-    margin-left: 170px;
+    margin-left: 225px;
     padding: 20px;
     border-width: 4px;
     border-color: rgb(30,144,255,40%);
     background-color: rgb(240,248,255,20%);
     color: rgb(240,240,240,85%);
+}
+
+.contactForm h2 {
+    
 }
